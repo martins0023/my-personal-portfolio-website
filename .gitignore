@@ -1,0 +1,18 @@
+# node
+/node_modules
+
+# next
+/next-env.d.ts
+/.next
+next.config.js
+next.config.mjs
+next-env.d.ts
+
+# others
+
+# environment variables
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env
