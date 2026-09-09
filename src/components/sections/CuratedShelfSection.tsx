@@ -40,25 +40,27 @@ export function CuratedShelfSection() {
         />
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-6">
           {/* Category Tabs */}
-          <div className="flex flex-wrap gap-2 p-1.5 rounded-full bg-neutral-100 dark:bg-neutral-800/80 border border-neutral-200/80 dark:border-neutral-700/80 self-start md:self-auto">
-            {CATEGORIES.map(({ label, icon: Icon }) => {
-              const isActive = activeTab === label;
-              return (
-                <button
-                  key={label}
-                  type="button"
-                  onClick={() => setActiveTab(label)}
-                  className={`text-xs font-medium px-4 py-2 rounded-full transition-all duration-200 flex items-center gap-2 ${
-                    isActive
-                      ? "bg-neutral-900 text-white dark:bg-white dark:text-neutral-900 shadow-xs"
-                      : "text-neutral-600 dark:text-neutral-300 hover:text-neutral-900 dark:hover:text-white"
-                  }`}
-                >
-                  <Icon className="w-3.5 h-3.5" />
-                  <span>{label}</span>
-                </button>
-              );
-            })}
+          <div className="w-full md:w-auto overflow-x-auto pb-1 md:pb-0 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+            <div className="inline-flex items-center gap-1.5 p-1.5 rounded-full bg-neutral-100/80 dark:bg-neutral-800/80 border border-neutral-200/80 dark:border-neutral-700/80 whitespace-nowrap">
+              {CATEGORIES.map(({ label, icon: Icon }) => {
+                const isActive = activeTab === label;
+                return (
+                  <button
+                    key={label}
+                    type="button"
+                    onClick={() => setActiveTab(label)}
+                    className={`text-xs font-medium px-4 py-2 rounded-full transition-all duration-200 flex items-center gap-2 ${
+                      isActive
+                        ? "bg-neutral-900 text-white dark:bg-white dark:text-neutral-900 shadow-xs"
+                        : "text-neutral-600 dark:text-neutral-300 hover:text-neutral-900 dark:hover:text-white"
+                    }`}
+                  >
+                    <Icon className="w-3.5 h-3.5" />
+                    <span>{label}</span>
+                  </button>
+                );
+              })}
+            </div>
           </div>
         </div>
 

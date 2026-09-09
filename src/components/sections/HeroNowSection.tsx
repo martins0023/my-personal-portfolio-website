@@ -19,33 +19,26 @@ import { GithubIcon, LinkedinIcon, GoogleDevIcon } from "@/components/ui/Icons";
 
 export function HeroNowSection() {
   return (
-    <section id="now" className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
+    <section id="now" className="pt-28 pb-20 px-4 sm:px-6 lg:px-8">
       <div className="max-w-6xl mx-auto space-y-16">
         {/* Main Hero Header: Grid with Profile Showcase */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
           {/* Left Column: Headline, Bio & Primary Calls-to-Action */}
           <div className="lg:col-span-7 space-y-6">
             {/* Live Status Pill Tag */}
-            <div className="flex flex-wrap items-center gap-3">
-
-              <Badge variant="neutral" size="sm">
-                <Clock className="w-3 h-3 text-neutral-500" />
-                Updated {nowData.lastUpdated}
-              </Badge>
-            </div>
 
             {/* Core Title */}
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-semibold tracking-tight text-neutral-900 dark:text-white leading-[1.08]">
-              Architecting narrative web platforms,{" "}
+              Turning authentic voices & visions into,{" "}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-indigo-600 to-teal-500 dark:from-blue-400 dark:via-indigo-300 dark:to-teal-300">
-                resilient systems
+                revenue-ready 
               </span>
-              , & human-centered experiences.
+              , & digital products.
             </h1>
 
             {/* Subtitle / Positioning Statement */}
             <p className="text-lg sm:text-xl text-neutral-600 dark:text-neutral-400 leading-relaxed font-normal">
-              I am a Principal Frontend Engineer & Systems Architect dedicated to crafting high-performance, accessible digital infrastructures. Bridging the gap between complex backend architectures and tactile, fluid user interfaces.
+              I develop products that capture who you are and scale where you are going. Whether transforming a personal brand into an interactive product or engineering an early-stage idea into a high-performance MVP.
             </p>
 
             {/* CTA Button Group */}
@@ -143,7 +136,7 @@ export function HeroNowSection() {
                           Miracle Oladapo
                         </h2>
                         <span className="text-[11px] font-mono">
-                          Principal Engineer & Speaker
+                          Principal Engineer
                         </span>
                       </div>
                     </div>
@@ -164,10 +157,6 @@ export function HeroNowSection() {
               <h2 className="text-xl sm:text-2xl font-semibold text-neutral-900 dark:text-white">
                 Active Focus & Current Pursuits
               </h2>
-            </div>
-            <div className="flex items-center gap-2 text-xs font-medium text-neutral-500 dark:text-neutral-400">
-              <span className="w-2 h-2 rounded-full bg-blue-500" />
-              <span>Based in {nowData.location}</span>
             </div>
           </div>
 

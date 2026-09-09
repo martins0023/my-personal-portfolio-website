@@ -1,49 +1,49 @@
 import { NowStatus } from "@/types";
 
 export const nowData: NowStatus = {
-  statusText: "Designing & Architecting Next-Gen Systems",
-  currentRole: "Principal Frontend Engineer & Design Technologist",
-  location: "Lagos / Remote Global",
+  statusText: "Transforming Visions into Digital Products",
+  currentRole: "Product Engineer & Frontend Architect",
+  location: "Nigeria / Remote Global",
   lastUpdated: "September 2026",
   building: [
     {
-      title: "Resilient Health & Telehealth Infrastructures",
+      title: "Cliniconlineplus",
       description:
-        "Scaling low-bandwidth WebRTC data sync and client-side encryption protocols for distributed healthcare networks.",
+        "Scaling an edge-ready consultation engine with sub-second performance, Paystack checkout pipelines, and Redis defensive rate-limiting.",
     },
     {
-      title: "AI-Augmented Design Systems",
+      title: "Founder & Creator Digital Brand Systems",
       description:
-        "Codifying tokenized, multi-brand micro-frontends with automated accessibility auditing and fluid layout geometry.",
+        "Designing web platforms that commercialize authentic personal identities and turn static footprints into revenue-ready products.",
     },
     {
-      title: "Civic Open-Data Tooling",
+      title: "Rapid AI Product Prototypes",
       description:
-        "Experimenting with high-throughput public ledger visualizers and zero-knowledge privacy layers for citizen voting data.",
+        "Shipping production-ready MVPs, generative AI interfaces, and full-stack web applications with Next.js, TypeScript, and Neon DB.",
     },
   ],
   researching: [
     {
-      title: "Edge Runtime Optimization",
+      title: "Edge Runtimes & Server-Driven Rendering",
       description:
-        "Sub-millisecond Server Components streaming and minimal-hydration Web Standards across Vercel and Cloudflare Workers.",
+        "Benchmarking Next.js ISR, React Server Components streaming, and edge caching layers to achieve sub-second LCP and near-instant hydration.",
     },
     {
-      title: "Tactile Digital Physics",
+      title: "Frontend Defensive Security Architectures",
       description:
-        "Framer Motion layout projection mechanics and high-framerate spring kinematics for enterprise dashboard interfaces.",
+        "Hardening client-side applications against bot abuse, DOM-based attack vectors, and credential leaks using zero-trust frontend controls.",
     },
   ],
   exploring: [
     {
-      title: "Complex System Dynamics & Cybernetics",
+      title: "Personal Brand Monetization Patterns",
       description:
-        "Studying feedback loops in social platforms, decentralized food logistics, and healthcare delivery pipelines.",
+        "Studying technical and conversion architectures that transform personal agency sites into recurring revenue streams and software products.",
     },
     {
-      title: "Audio-Spatial Interface Paradigms",
+      title: "Multi-Agent AI Workflows",
       description:
-        "Synthesizing non-intrusive ambient auditory feedback for continuous telemetry monitoring.",
+        "Integrating browser-level foundation models and multi-agent systems to automate technical onboarding and candidate matching workflows.",
     },
   ],
 };
