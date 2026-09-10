@@ -13,9 +13,9 @@ export const projectsData: Project[] = [
     period: "May 2026 – Present",
     featured: false,
     problem:
-      "Finding and booking the right specialist is often slow and confusing, especially across borders — patients in Africa and the UAE needed a simple way to discover and reach clinicians without friction.",
+      "Finding and booking the right specialist is often slow and confusing, especially across borders patients in Africa and the UAE needed a simple way to discover and reach clinicians without friction.",
     solution:
-      "Built and maintain patient-facing features in React.js, Next.js, and Tailwind CSS — including booking flows and secure payment handling through the Paystack API — focused on making discovery and booking feel effortless.",
+      "Built and maintain patient-facing features in React.js, Next.js, and Tailwind CSS including booking flows and secure payment handling through the Paystack API focused on making discovery and booking feel effortless.",
     outcome:
       "Shipped a highly performant experience: 0.8s Speed Index, 99% Performance, 96% Best Practices, and 100% SEO on Lighthouse.",
     metrics: [
@@ -50,7 +50,7 @@ export const projectsData: Project[] = [
     period: "2024",
     featured: false,
     problem:
-      "Dr. Olayiwola Babatunde Emmanuel — a fertility specialist and health-tech entrepreneur with 10+ years of clinical experience across the UAE, Nigeria, and Ukraine — needed a digital presence that matched his credibility and made it easy for patients to reach him.",
+      "Dr. Olayiwola Babatunde Emmanuel — a fertility specialist and health-tech entrepreneur with 10+ years of clinical experience across the UAE, Nigeria, and Ukraine needed a digital presence that matched his credibility and made it easy for patients to reach him.",
     solution:
       "Built a personal brand platform to present his practice, credentials, and content in one place, with a clear path for prospective patients to get in touch or book.",
     outcome:
@@ -79,7 +79,7 @@ export const projectsData: Project[] = [
     problem:
       "A mentorship movement built around spiritual discipline and accountability needed a digital home that could deliver structured coaching content, not just a static brochure site.",
     solution:
-      "Built the platform experience around the brand's core philosophy — that private discipline creates public authority — including an LMS-style structure for coaching material and accountability tracking.",
+      "Built the platform experience around the brand's core philosophy that private discipline creates public authority including an LMS-style structure for coaching material and accountability tracking.",
     outcome:
       "Gave the movement a home online that reflects its mission: raising a generation of people who lead through structured, private discipline before public influence.",
     metrics: [],
@@ -108,11 +108,11 @@ export const projectsData: Project[] = [
     period: "In progress",
     featured: false,
     problem:
-      "O2 Foods ran entirely on manual, in-person order-taking — no way for customers to browse, order, or pay without walking in, which capped how many customers the business could reasonably serve.",
+      "O2 Foods ran entirely on manual, in-person order-taking no way for customers to browse, order, or pay without walking in, which capped how many customers the business could reasonably serve.",
     solution:
       "Building an online ordering and delivery platform to move the business from foot-traffic-only to a proper digital storefront, with online ordering, payment, and order tracking.",
     outcome:
-      "Currently in development — the goal is a professional online brand presence that replaces the manual ordering process entirely.",
+      "Currently in development the goal is a professional online brand presence that replaces the manual ordering process entirely.",
     metrics: [],
     architectureHighlights: [
       "Online storefront for browsing products and placing orders",
