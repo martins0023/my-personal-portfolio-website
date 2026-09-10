@@ -29,16 +29,16 @@ export function HeroNowSection() {
 
             {/* Core Title */}
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-semibold tracking-tight text-neutral-900 dark:text-white leading-[1.08]">
-              I turn people's visions,{" "}
+              I turn people's vision,{" "}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-indigo-600 to-teal-500 dark:from-blue-400 dark:via-indigo-300 dark:to-teal-300">
                 into products
-              </span>
+              </span>{" "}
               they can put their name on.
             </h1>
 
             {/* Subtitle / Positioning Statement */}
             <p className="text-lg sm:text-xl text-neutral-600 dark:text-neutral-400 leading-relaxed font-normal">
-              I am a software engineer who works with founders, vision, and mission-driven brands to turn a personal idea or identity into something real
+              I am a software engineer who works with founders, vision and mission-driven brands to turn a personal idea or identity into something real
             </p>
 
             {/* CTA Button Group */}
@@ -195,11 +195,11 @@ export function HeroNowSection() {
                   <Search className="w-4 h-4" />
                 </div>
                 <h3 className="font-semibold text-sm uppercase tracking-wider text-neutral-900 dark:text-white">
-                  Researching
+                  Education
                 </h3>
               </div>
               <ul className="space-y-3.5">
-                {nowData.researching.map((item, idx) => (
+                {nowData.education.map((item, idx) => (
                   <li
                     key={idx}
                     className="p-3.5 rounded-2xl bg-white dark:bg-neutral-800/60 border border-neutral-100 dark:border-neutral-800/80 shadow-xs space-y-1"

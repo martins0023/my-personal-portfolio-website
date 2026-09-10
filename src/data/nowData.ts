@@ -17,21 +17,26 @@ export const nowData: NowStatus = {
         "Helping a food ordering business move off manual, walk-in order-taking and onto a proper online storefront ordering, payment, and order tracking, built from the ground up.",
     },
     {
-      title: "AI Data Quality Review",
+      title: "The Governed Life",
       description:
-        "Reviewing and annotating multi-modal AI training data text, image, and video at volume, and flagging systematic dataset errors before they reach model training.",
+        "A mentorship movement built around spiritual discipline and accountability needing a digital home that could deliver structured coaching content.",
     },
   ],
-  researching: [
+  education: [
     {
-      title: "Applied Security for Frontend Engineers",
+      title: "B.Sc. Cybersecurity - Miva University",
       description:
-        "Working through my Cybersecurity degree and applying it directly to how I build input validation, secure payment handling, and auth patterns for client-facing apps.",
+        "Core coursework in network security protocols, cryptography, and secure software development. Applied directly to client-facing systems through edge rate-limiting, least-privilege API authorization, and zero-trust input sanitization.",
     },
     {
-      title: "What Makes AI Evaluation Useful",
+      title: "Diploma in Software Engineering (Frontend Engineer) - Altschool Africa",
       description:
-        "Learning, through hands-on annotation and evaluation work, what separates specific, actionable feedback on a model's output from vague, unusable feedback.",
+        "Certified frontend engineering track (2025–2026), covering React, TypeScript, and production web application practices.",
+    },
+    {
+      title: "Computer Science - Federal Polytechnic Offa",
+      description:
+        "Completed 2023–2024. Foundation in computer science principles.",
     },
   ],
   exploring: [
@@ -47,3 +52,44 @@ export const nowData: NowStatus = {
     },
   ],
 };
+
+
+
+export interface EducationItem {
+  degree: string;
+  institution: string;
+  period: string;
+  badge: string;
+  focus: string[];
+  description: string;
+}
+
+export const educationData: EducationItem[] = [
+  {
+    degree: "B.Sc. Cybersecurity",
+    institution: "Miva Open University",
+    period: "2024 – Present",
+    badge: "In Progress",
+    focus: ["Application Security", "Threat Modeling", "Defensive Systems"],
+    description:
+      "Core coursework in network security protocols, cryptography, and secure software development. Applied directly to client-facing systems through edge rate-limiting, least-privilege API authorization, and zero-trust input sanitization.",
+  },
+  {
+    degree: "Diploma in Software Engineering (Frontend Engineering)",
+    institution: "AltSchool Africa",
+    period: "2025 – 2026",
+    badge: "Certified",
+    focus: ["React Internals", "TypeScript", "State Orchestration", "SSR/SSG"],
+    description:
+      "Intensive specialization in production-grade frontend engineering: building type-safe single-page applications, component lifecycle design, accessible design systems, and client-side performance auditing.",
+  },
+  {
+    degree: "National Diploma in Computer Science",
+    institution: "Federal Polytechnic Offa",
+    period: "2022 – 2024",
+    badge: "Completed",
+    focus: ["Data Structures", "Algorithms", "Object-Oriented Programming", "Relational Databases"],
+    description:
+      "Rigorous grounding in discrete computational mathematics, memory management, algorithm complexity (Big O), and relational database modeling (SQL, normalization, indexing).",
+  },
+];

@@ -27,8 +27,8 @@ export function ProjectsSection() {
     <section id="projects" className="py-24 px-4 sm:px-6 lg:px-8">
       <div className="max-w-6xl mx-auto space-y-12">
         <SectionHeader
-          title="Featured Projects & Production Systems"
-          subtitle="Deep architectural case studies spanning digital healthcare, authority personal branding, civic governance intelligence, and decentralized agri-commerce."
+          title="Featured Projects"
+          subtitle="Real projects across healthcare discovery, personal brand platforms for real people, structured mentorship systems, and taking an offline business online."
           className="mb-0"
         />
 

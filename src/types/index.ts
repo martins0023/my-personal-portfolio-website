@@ -61,7 +61,7 @@ export interface NowStatus {
     title: string;
     description: string;
   }[];
-  researching: {
+  education: {
     title: string;
     description: string;
   }[];

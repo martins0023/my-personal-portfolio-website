@@ -66,7 +66,7 @@ export function ProjectCard({ project, featuredIndex }: ProjectCardProps) {
         </div>
 
         {/* Measurable Impact Metrics Grid */}
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4 p-4 sm:p-5 rounded-2xl bg-neutral-50 dark:bg-neutral-950/60 border border-neutral-200/70 dark:border-neutral-800/80">
+        {/* <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4 p-4 sm:p-5 rounded-2xl bg-neutral-50 dark:bg-neutral-950/60 border border-neutral-200/70 dark:border-neutral-800/80">
           {project.metrics.map((metric, idx) => (
             <div key={idx} className="space-y-0.5">
               <div className="text-2xl sm:text-3xl font-bold tracking-tight text-neutral-900 dark:text-white">
@@ -82,7 +82,7 @@ export function ProjectCard({ project, featuredIndex }: ProjectCardProps) {
               )}
             </div>
           ))}
-        </div>
+        </div> */}
 
         {/* Problem → Solution → Outcome Breakdown */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 pt-2">

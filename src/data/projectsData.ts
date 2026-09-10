@@ -7,13 +7,13 @@ export const projectsData: Project[] = [
     tagline:
       "Healthcare discovery platform connecting patients to verified specialists",
     summary:
-      "A cross-border healthcare discovery and booking platform that helps patients in Africa and the UAE find verified specialists and access secure consultation services.",
+      "A cross-border healthcare discovery and booking platform that helps patients find verified specialists and access secure consultation services.",
     category: "HealthTech",
     role: "Frontend Engineer",
     period: "May 2026 – Present",
     featured: false,
     problem:
-      "Finding and booking the right specialist is often slow and confusing, especially across borders patients in Africa and the UAE needed a simple way to discover and reach clinicians without friction.",
+      "Finding and booking the right specialist is often slow and confusing, especially across borders patients needed a simple way to discover and reach clinicians without friction.",
     solution:
       "Built and maintain patient-facing features in React.js, Next.js, and Tailwind CSS including booking flows and secure payment handling through the Paystack API focused on making discovery and booking feel effortless.",
     outcome:
@@ -36,7 +36,7 @@ export const projectsData: Project[] = [
         type: "live",
       },
     ],
-    tags: ["React.js", "Next.js", "Tailwind CSS", "Paystack API"],
+    tags: ["Cloudflare", "Next.js", "Tailwind CSS", "Redis", "PostgreSQL", "Twilio", "Mailjet"],
   },
   {
     id: "doctorkays",
@@ -50,7 +50,7 @@ export const projectsData: Project[] = [
     period: "2024",
     featured: false,
     problem:
-      "Dr. Olayiwola Babatunde Emmanuel — a fertility specialist and health-tech entrepreneur with 10+ years of clinical experience across the UAE, Nigeria, and Ukraine needed a digital presence that matched his credibility and made it easy for patients to reach him.",
+      "Dr. Olayiwola Babatunde Emmanuel a fertility specialist and health-tech entrepreneur with 10+ years of clinical experience across the UAE, Nigeria, and Ukraine needed a digital presence that matched his credibility and made it easy for patients to reach him.",
     solution:
       "Built a personal brand platform to present his practice, credentials, and content in one place, with a clear path for prospective patients to get in touch or book.",
     outcome:
@@ -63,7 +63,7 @@ export const projectsData: Project[] = [
     links: [
       { label: "Live System", url: "https://www.doctorkays.com", type: "live" },
     ],
-    tags: ["Next.js", "Tailwind CSS", "SEO"],
+    tags: ["Next.js", "Tailwind CSS", "SEO", "Paystack API", "MongoDB", "Node.js"],
   },
   {
     id: "thegovernedlife",
@@ -77,7 +77,7 @@ export const projectsData: Project[] = [
     period: "2024",
     featured: false,
     problem:
-      "A mentorship movement built around spiritual discipline and accountability needed a digital home that could deliver structured coaching content, not just a static brochure site.",
+      "A mentorship movement built around spiritual discipline and accountability needed a digital home that could deliver structured coaching content.",
     solution:
       "Built the platform experience around the brand's core philosophy that private discipline creates public authority including an LMS-style structure for coaching material and accountability tracking.",
     outcome:
