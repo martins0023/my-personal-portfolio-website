@@ -38,7 +38,7 @@ export function HeroNowSection() {
 
             {/* Subtitle / Positioning Statement */}
             <p className="text-lg sm:text-xl text-neutral-600 dark:text-neutral-400 leading-relaxed font-normal">
-              I am software engineer who works with founders, vision, and mission-driven brands to turn a personal idea or identity into something real
+              I am a software engineer who works with founders, vision, and mission-driven brands to turn a personal idea or identity into something real
             </p>
 
             {/* CTA Button Group */}
