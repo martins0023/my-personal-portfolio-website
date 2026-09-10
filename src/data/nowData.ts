@@ -1,49 +1,49 @@
 import { NowStatus } from "@/types";
 
 export const nowData: NowStatus = {
-  statusText: "Transforming Visions into Digital Products",
-  currentRole: "Product Engineer & Frontend Architect",
-  location: "Nigeria / Remote Global",
+  statusText: "Turning visions into digital products",
+  currentRole: "Frontend Engineer & Fullstack Developer",
+  location: "Osogbo, Nigeria / Remote",
   lastUpdated: "September 2026",
   building: [
     {
-      title: "Cliniconlineplus",
+      title: "ClinicOnlinePlus",
       description:
-        "Scaling an edge-ready consultation engine with sub-second performance, Paystack checkout pipelines, and Redis defensive rate-limiting.",
+        "Building patient-facing booking and payment flows for a healthcare discovery platform connecting patients across Africa and the UAE to specialists.",
     },
     {
-      title: "Founder & Creator Digital Brand Systems",
+      title: "O2 Foods",
       description:
-        "Designing web platforms that commercialize authentic personal identities and turn static footprints into revenue-ready products.",
+        "Helping a food ordering business move off manual, walk-in order-taking and onto a proper online storefront ordering, payment, and order tracking, built from the ground up.",
     },
     {
-      title: "Rapid AI Product Prototypes",
+      title: "AI Data Quality Review",
       description:
-        "Shipping production-ready MVPs, generative AI interfaces, and full-stack web applications with Next.js, TypeScript, and Neon DB.",
+        "Reviewing and annotating multi-modal AI training data text, image, and video at volume, and flagging systematic dataset errors before they reach model training.",
     },
   ],
   researching: [
     {
-      title: "Edge Runtimes & Server-Driven Rendering",
+      title: "Applied Security for Frontend Engineers",
       description:
-        "Benchmarking Next.js ISR, React Server Components streaming, and edge caching layers to achieve sub-second LCP and near-instant hydration.",
+        "Working through my Cybersecurity degree and applying it directly to how I build input validation, secure payment handling, and auth patterns for client-facing apps.",
     },
     {
-      title: "Frontend Defensive Security Architectures",
+      title: "What Makes AI Evaluation Useful",
       description:
-        "Hardening client-side applications against bot abuse, DOM-based attack vectors, and credential leaks using zero-trust frontend controls.",
+        "Learning, through hands-on annotation and evaluation work, what separates specific, actionable feedback on a model's output from vague, unusable feedback.",
     },
   ],
   exploring: [
     {
-      title: "Personal Brand Monetization Patterns",
+      title: "Turning a Personal Brand into a Real Product",
       description:
-        "Studying technical and conversion architectures that transform personal agency sites into recurring revenue streams and software products.",
+        "Studying how a person's voice, reputation, or offline credibility becomes something more than a brochure site a booking system, a course platform, an ordering flow people actually use.",
     },
     {
-      title: "Multi-Agent AI Workflows",
+      title: "AI-Assisted Frontend Workflows",
       description:
-        "Integrating browser-level foundation models and multi-agent systems to automate technical onboarding and candidate matching workflows.",
+        "Trying out how AI coding tools change day-to-day frontend work where they genuinely speed things up, and where they just add noise.",
     },
   ],
 };
