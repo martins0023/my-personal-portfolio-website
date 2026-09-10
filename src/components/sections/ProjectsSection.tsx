@@ -10,8 +10,8 @@ const CATEGORIES: ProjectCategory[] = [
   "All",
   "HealthTech",
   "Brand & Systems",
-  "CivicTech",
-  "Agri-Commerce",
+  "FoodTech",
+  "Mentorship / EdTech",
 ];
 
 export function ProjectsSection() {

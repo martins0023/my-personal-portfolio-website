@@ -29,16 +29,16 @@ export function HeroNowSection() {
 
             {/* Core Title */}
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-semibold tracking-tight text-neutral-900 dark:text-white leading-[1.08]">
-              Turning authentic voices & visions into,{" "}
+              I turn people's visions,{" "}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-indigo-600 to-teal-500 dark:from-blue-400 dark:via-indigo-300 dark:to-teal-300">
-                revenue-ready 
+                into products
               </span>
-              , & digital products.
+              they can put their name on.
             </h1>
 
             {/* Subtitle / Positioning Statement */}
             <p className="text-lg sm:text-xl text-neutral-600 dark:text-neutral-400 leading-relaxed font-normal">
-              I develop products that capture who you are and scale where you are going. Whether transforming a personal brand into an interactive product or engineering an early-stage idea into a high-performance MVP.
+              I am software engineer who works with founders, vision, and mission-driven brands to turn a personal idea or identity into something real
             </p>
 
             {/* CTA Button Group */}

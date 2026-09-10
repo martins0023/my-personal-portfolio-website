@@ -1,8 +1,8 @@
 export type ProjectCategory =
   | 'All'
   | 'HealthTech'
-  | 'CivicTech'
-  | 'Agri-Commerce'
+  | 'Mentorship / EdTech'
+  | 'FoodTech'
   | 'Brand & Systems';
 
 export interface ProjectMetric {
