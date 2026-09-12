@@ -14,7 +14,7 @@ export default function HomePage() {
       <ProjectsSection />
 
       {/* 3. Quantified Track Record & Real-World Impact */}
-      <ImpactSection />
+      {/* <ImpactSection /> */}
 
       {/* 4. Curated Shelf & Core Influences */}
       <CuratedShelfSection />

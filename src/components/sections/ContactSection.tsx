@@ -33,7 +33,7 @@ export function ContactSection() {
                 Let’s build something impactful together.
               </h2>
               <p className="text-base sm:text-lg text-neutral-300 leading-relaxed font-normal">
-                Whether you are launching a complex multi-tenant health platform, codifying an enterprise design system, or architecting a civic-tech public utility, my inbox is always open.
+                Whether you're turning an idea into a production web app, scaling an existing platform, or looking to collaborate, let's talk.
               </p>
             </div>
 
@@ -76,7 +76,7 @@ export function ContactSection() {
               </div>
               <div>
                 <span className="font-semibold text-neutral-300 block mb-1">Preferred Channels</span>
-                <span>Email, GitHub, Google Dev (g.dev)</span>
+                <span>Email, Google Dev (g.dev)</span>
               </div>
               <div>
                 <span className="font-semibold text-neutral-300 block mb-1">Response Time</span>

@@ -5,15 +5,8 @@ import Link from "next/link";
 import Image from "next/image";
 import { ThemeToggle } from "@/components/ui/ThemeToggle";
 import { Button } from "@/components/ui/Button";
-import { Menu, X, ArrowUpRight, Sparkles } from "lucide-react";
-
-const NAV_LINKS = [
-  { label: "Overview & Now", href: "#now" },
-  { label: "Featured Projects", href: "#projects" },
-  { label: "Impact Metrics", href: "#impact" },
-  { label: "Curated Shelf", href: "#shelf" },
-  { label: "Contact", href: "#contact" },
-];
+import { Menu, X, ArrowUpRight } from "lucide-react";
+import { NAV_LINKS } from "@/data/constants";
 
 export function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = React.useState(false);
@@ -57,10 +50,10 @@ export function Navbar() {
                 <span className="text-sm font-semibold tracking-tight text-neutral-900 dark:text-white">
                   Miracle
                 </span>
-                <span className="inline-block w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
+                {/* <span className="inline-block w-2 h-2 rounded-full bg-emerald-500 animate-pulse" /> */}
               </div>
               <span className="text-[10px] uppercase font-mono text-neutral-500 dark:text-neutral-400 hidden sm:inline">
-                Principal Engineer
+                Software`` Engineer
               </span>
             </div>
           </Link>

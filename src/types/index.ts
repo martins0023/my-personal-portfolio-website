@@ -76,7 +76,9 @@ export type ShelfCategory =
   | 'Audiobooks'
   | 'Podcasts'
   | 'Key Talks'
-  | 'Core Tools';
+  | 'Tools'
+  | 'Resources'
+  | 'Events';
 
 export interface ShelfItem {
   id: string;

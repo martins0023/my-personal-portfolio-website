@@ -10,17 +10,20 @@ import {
   BookOpen,
   Headphones,
   Mic,
-  Video,
   Wrench,
   ArrowUpRight,
+  ToolCase,
+  PilcrowRight,
 } from "lucide-react";
 
 const CATEGORIES: { label: ShelfCategory; icon: any }[] = [
   { label: "Books", icon: BookOpen },
   { label: "Audiobooks", icon: Headphones },
   { label: "Podcasts", icon: Mic },
-  { label: "Key Talks", icon: Video },
-  { label: "Core Tools", icon: Wrench },
+  // { label: "Key Talks", icon: Video },
+  { label: "Tools", icon: ToolCase },
+  { label: "Resources", icon: Wrench },
+  { label: "Events", icon: PilcrowRight },
 ];
 
 export function CuratedShelfSection() {
@@ -35,7 +38,7 @@ export function CuratedShelfSection() {
       <div className="max-w-6xl mx-auto space-y-12">
         <SectionHeader
           title="Curated Shelf & Core Influences"
-          subtitle="The literature, auditory deep-dives, seminal talks, and developer tools that continuously calibrate my engineering standards and philosophical worldview."
+          subtitle="A hand-picked collection of books, podcasts, events, and resources that have inspired and influenced my journey."
           className="mb-0"
         />
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-6">

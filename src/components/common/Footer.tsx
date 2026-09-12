@@ -1,9 +1,12 @@
 import * as React from "react";
-import Link from "next/link";
 import Image from "next/image";
 import { Mail, Rss } from "lucide-react";
-import { Badge } from "@/components/ui/Badge";
-import { GithubIcon, LinkedinIcon, TwitterIcon, GoogleDevIcon } from "@/components/ui/Icons";
+import {
+  GithubIcon,
+  LinkedinIcon,
+  TwitterIcon,
+  GoogleDevIcon,
+} from "@/components/ui/Icons";
 
 export function Footer() {
   return (
@@ -16,7 +19,7 @@ export function Footer() {
               <div className="relative w-9 h-9 rounded-full overflow-hidden border border-neutral-200 dark:border-neutral-700 bg-neutral-100 dark:bg-neutral-800 shrink-0">
                 <Image
                   src="/images/profile-image.jpg"
-                  alt="Martins"
+                  alt="Miracle"
                   fill
                   sizes="36px"
                   className="object-cover"
@@ -27,7 +30,9 @@ export function Footer() {
               </span>
             </div>
             <p className="text-sm text-neutral-600 dark:text-neutral-400 max-w-md leading-relaxed">
-              Principal Frontend Engineer & UI/UX Systems Architect. Crafting resilient, narrative-driven digital platforms inspired by modern design systems and distributed reliability.
+              I am a software engineer who works with founders, vision and
+              mission-driven brands to turn a personal idea or identity into
+              something real.
             </p>
           </div>
 
@@ -42,7 +47,7 @@ export function Footer() {
                   href="#now"
                   className="text-neutral-600 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-white transition-colors"
                 >
-                  now Snapshot
+                  Overview
                 </a>
               </li>
               <li>
@@ -51,14 +56,6 @@ export function Footer() {
                   className="text-neutral-600 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-white transition-colors"
                 >
                   Featured Projects
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#impact"
-                  className="text-neutral-600 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-white transition-colors"
-                >
-                  Quantified Track Record
                 </a>
               </li>
               <li>
@@ -75,7 +72,7 @@ export function Footer() {
           {/* Connect & Feeds */}
           <div className="space-y-3">
             <h3 className="text-xs font-semibold uppercase tracking-wider text-neutral-500 dark:text-neutral-400">
-              Connect & Signals
+              Contact
             </h3>
             <div className="flex flex-wrap gap-2">
               <a
@@ -130,24 +127,22 @@ export function Footer() {
                 <Rss className="w-4 h-4" />
               </a>
             </div>
-            <div className="pt-2">
-              <span className="text-xs text-neutral-500 dark:text-neutral-500 font-mono block">
-                Last updated: September 2026
-              </span>
-            </div>
           </div>
         </div>
 
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-neutral-200/80 dark:border-neutral-800/80 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-neutral-500 dark:text-neutral-400">
-          <p>© {new Date().getFullYear()} Miracle Oladapo . Built with Next.js, React 19 & Tailwind CSS.</p>
+          <p>
+            © {new Date().getFullYear()} Miracle Oladapo . Built with Next.js,
+            React 19, Tailwind CSS & Antigravity.
+          </p>
           <div className="flex items-center gap-4">
-            <span className="inline-flex items-center gap-1.5">
-              <span className="w-2 h-2 rounded-full bg-emerald-500"></span>
-              All systems operational
-            </span>
             <span>•</span>
-            <span>Inspired by developers.google.com & ai.google</span>
+            <span>
+              Inspired by{" "}
+              <a href="https://developers.google.com">developers.google.com</a>{" "}
+              & <a href="https://ai.google">ai.google</a>
+            </span>
           </div>
         </div>
       </div>

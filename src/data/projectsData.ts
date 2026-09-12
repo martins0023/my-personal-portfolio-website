@@ -13,9 +13,9 @@ export const projectsData: Project[] = [
     period: "May 2026 – Present",
     featured: false,
     problem:
-      "Finding and booking the right specialist is often slow and confusing, especially across borders patients needed a simple way to discover and reach clinicians without friction.",
+      "Finding and booking the right specialist is often slow and confusing, especially across borders patients needed a simple way to discover and reach specialists and doctors without friction.",
     solution:
-      "Built and maintain patient-facing features in React.js, Next.js, and Tailwind CSS including booking flows and secure payment handling through the Paystack API focused on making discovery and booking feel effortless.",
+      "Built and maintain patient-facing features in React.js, Next.js, and Tailwind CSS including booking flows on making discovery and booking feel effortless.",
     outcome:
       "Shipped a highly performant experience: 0.8s Speed Index, 99% Performance, 96% Best Practices, and 100% SEO on Lighthouse.",
     metrics: [

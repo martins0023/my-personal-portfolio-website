@@ -3,7 +3,6 @@
 import * as React from "react";
 import Image from "next/image";
 import { nowData } from "@/data/nowData";
-import { Badge } from "@/components/ui/Badge";
 import { Button } from "@/components/ui/Button";
 import { Card } from "@/components/ui/Card";
 import {
@@ -12,8 +11,6 @@ import {
   Layers,
   Search,
   Compass,
-  Clock,
-  Radio,
 } from "lucide-react";
 import { GithubIcon, LinkedinIcon, GoogleDevIcon } from "@/components/ui/Icons";
 
@@ -38,7 +35,9 @@ export function HeroNowSection() {
 
             {/* Subtitle / Positioning Statement */}
             <p className="text-lg sm:text-xl text-neutral-600 dark:text-neutral-400 leading-relaxed font-normal">
-              I am a software engineer who works with founders, vision and mission-driven brands to turn a personal idea or identity into something real
+              I am a software engineer who works with founders, vision and
+              mission-driven brands to turn a personal idea or identity into
+              something real.
             </p>
 
             {/* CTA Button Group */}
@@ -130,13 +129,13 @@ export function HeroNowSection() {
 
                   {/* Bottom Metadata: Identity & Speaking Availability */}
                   <div className="absolute bottom-0 inset-x-0 p-5 text-indigo-950 space-y-1.5">
-                    <div className="flex items-center justify-between">
-                      <div>
-                        <h2 className="text-xl font-semibold tracking-tight leading-tight">
+                    <div className="flex items-center justify-end gap-2">
+                      <div className="">
+                        <h2 className="bg-yellow-500 p-3 rounded-full text-lg font-semibold tracking-tight leading-tight">
                           Miracle Oladapo
                         </h2>
-                        <span className="text-[11px] font-mono">
-                          Principal Engineer
+                        <span className="bg-blue-800 text-white p-3 rounded-full text-[11px] font-mono">
+                          Software Engineer
                         </span>
                       </div>
                     </div>

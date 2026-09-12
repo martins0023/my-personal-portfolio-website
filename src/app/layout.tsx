@@ -9,10 +9,10 @@ import { Footer } from "@/components/common/Footer";
 export const metadata: Metadata = {
   title: "Miracle | Principal Frontend Engineer & Systems Architect",
   description:
-    "Narrative-driven portfolio inspired by Google design language. Showcase of flagship systems: ClinicOnlinePlus, DoctorKays, The GovernedLife, and O2 Foods.",
+    "I am a software engineer who works with founders, vision and mission-driven brands to turn a personal idea or identity into something real.",
   keywords: [
     "Frontend Engineer",
-    "Systems Architect",
+    "Systems Engineer",
     "Next.js",
     "TypeScript",
     "ClinicOnlinePlus",
@@ -30,14 +30,14 @@ export const metadata: Metadata = {
     url: "https://Miracle Oladapo.dev",
     title: "Miracle Oladapo | Principal Frontend Engineer & Systems Architect",
     description:
-      "Modern, minimalist narrative portfolio highlighting high-impact systems in healthcare, civic governance, and decentralized commerce.",
+      "I am a software engineer who works with founders, vision and mission-driven brands to turn a personal idea or identity into something real",
     siteName: "Miracle Oladapo Portfolio",
   },
   twitter: {
     card: "summary_large_image",
     title: "Miracle Oladapo | Principal Frontend Engineer",
     description:
-      "Modern, minimalist narrative portfolio inspired by Google design systems.",
+      "I am a software engineer who works with founders, vision and mission-driven brands to turn a personal idea or identity into something real.",
   },
 };
 
