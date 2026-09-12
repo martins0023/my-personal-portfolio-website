@@ -150,44 +150,44 @@ export const curationData: ShelfItem[] = [
 
   // Podcasts
   {
-    id: "podcast-lex-fridman",
-    title: "Lex Fridman Podcast",
-    creator: "Lex Fridman",
+    id: "mel-robbins",
+    title: "The Mel Robbins Podcast",
+    creator: "Mel Robbins",
     category: "Podcasts",
-    tag: "Deep Tech & AI",
+    tag: "Personal Development",
     takeaway:
-      "Unmatched long-form dialogues probing artificial intelligence, human agency, quantum physics, and the long-term arc of computing.",
-    url: "https://lexfridman.com/podcast/",
+      "A masterclass in practical, actionable advice for personal growth, productivity, and overcoming mental barriers.",
+    url: "https://melrobbins.com/podcast",
   },
   {
-    id: "podcast-acquired",
-    title: "Acquired",
-    creator: "Ben Gilbert & David Rosenthal",
+    id: "podcast-diary-of-a-ceo",
+    title: "The Diary of a CEO",
+    creator: "Steven Bartlett",
     category: "Podcasts",
-    tag: "Playbooks & Strategy",
+    tag: "Business & Leadership",
     takeaway:
-      "Masterful forensic breakdowns detailing how legendary tech institutions forged durable moats, network effects, and compounding culture.",
-    url: "https://www.acquired.fm/",
+      "Insightful conversations exploring the mindset, strategies, and real-world applications of successful entrepreneurs and executives.",
+    url: "https://podcasts.apple.com/gb/podcast/the-diary-of-a-ceo-with-steven-bartlett/id1291423644",
   },
   {
-    id: "podcast-changelog",
-    title: "The Changelog",
-    creator: "Jerod Santo & Adam Stacoviak",
+    id: "podcast-the-big-deal",
+    title: "The Big Deal Podcast",
+    creator: "Codie Sanchez",
     category: "Podcasts",
-    tag: "Software Engineering",
+    tag: "Business & Entrepreneurship ",
     takeaway:
-      "My primary pulse on open-source ecosystems, software maintainer realities, and emerging developer tooling paradigms.",
-    url: "https://changelog.com/podcast",
+      "Exploring the strategies and stories behind major business deals and negotiations.",
+    url: "https://podcasts.apple.com/gb/podcast/bigdeal/id1736593333?i=1000788819405",
   },
   {
-    id: "podcast-design-details",
-    title: "Design Details",
-    creator: "Marshall Bock & Brian Lovin",
+    id: "podcast-the-personal-finance-podcast",
+    title: "The Personal Finance Podcast",
+    creator: "Andrew Giancola",
     category: "Podcasts",
-    tag: "Product & UX Design",
+    tag: "Finance & Investing",
     takeaway:
-      "A masterclass in examining subtle UI micro-decisions, button interactions, and the craft of modern digital interfaces.",
-    url: "https://designdetails.fm/",
+      "A deep dive into personal finance strategies, investment insights, and practical advice for managing money effectively.",
+    url: "https://podcasts.apple.com/gb/podcast/the-personal-finance-podcast/id1511786733",
   },
 
   // Key Talks & Events

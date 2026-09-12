@@ -159,7 +159,7 @@ export function ProjectCard({ project, featuredIndex }: ProjectCardProps) {
           </div>
 
           {/* Actions: Details toggle + External links */}
-          <div className="flex flex-wrap items-center gap-3">
+          {/* <div className="flex flex-wrap items-center gap-3">
             <button
               type="button"
               onClick={() => setExpanded(!expanded)}
@@ -190,7 +190,7 @@ export function ProjectCard({ project, featuredIndex }: ProjectCardProps) {
                 </Button>
               </a>
             ))}
-          </div>
+          </div> */}
         </div>
       </div>
     </Card>

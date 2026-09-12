@@ -21,7 +21,7 @@ const CATEGORIES: { label: ShelfCategory; icon: any }[] = [
   { label: "Audiobooks", icon: Headphones },
   { label: "Podcasts", icon: Mic },
   // { label: "Key Talks", icon: Video },
-  { label: "Tools", icon: ToolCase },
+  // { label: "Tools", icon: ToolCase },
   { label: "Resources", icon: Wrench },
   { label: "Events", icon: PilcrowRight },
 ];

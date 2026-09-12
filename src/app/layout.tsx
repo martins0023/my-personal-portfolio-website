@@ -7,7 +7,7 @@ import { Navbar } from "@/components/common/Navbar";
 import { Footer } from "@/components/common/Footer";
 
 export const metadata: Metadata = {
-  title: "Miracle | Principal Frontend Engineer & Systems Architect",
+  title: "Miracle | Frontend Engineer & Systems Architect",
   description:
     "I am a software engineer who works with founders, vision and mission-driven brands to turn a personal idea or identity into something real.",
   keywords: [
@@ -28,14 +28,14 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "https://Miracle Oladapo.dev",
-    title: "Miracle Oladapo | Principal Frontend Engineer & Systems Architect",
+    title: "Miracle Oladapo | Frontend Engineer & Systems Architect",
     description:
       "I am a software engineer who works with founders, vision and mission-driven brands to turn a personal idea or identity into something real",
     siteName: "Miracle Oladapo Portfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Miracle Oladapo | Principal Frontend Engineer",
+    title: "Miracle Oladapo | Frontend Engineer",
     description:
       "I am a software engineer who works with founders, vision and mission-driven brands to turn a personal idea or identity into something real.",
   },
