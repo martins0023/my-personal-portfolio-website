@@ -26,6 +26,15 @@ export const metadata: Metadata = {
   creator: "Miracle",
   openGraph: {
     type: "website",
+    images: [
+      {
+        url: "/og-default.jpg", // Must exist in your /public folder (1200x630px recommended)
+        width: 1200,
+        height: 1200,
+        alt: "Miracle Oladapo",
+        type: "image/png",
+      },
+    ],
     locale: "en_US",
     url: "https://Miracle Oladapo.dev",
     title: "Miracle Oladapo | Frontend Engineer & Systems Architect",
@@ -36,6 +45,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Miracle Oladapo | Frontend Engineer",
+    images: ["/og-default.jpg"],
     description:
       "I am a software engineer who works with founders, vision and mission-driven brands to turn a personal idea or identity into something real.",
   },
