@@ -159,8 +159,8 @@ export function ProjectCard({ project, featuredIndex }: ProjectCardProps) {
           </div>
 
           {/* Actions: Details toggle + External links */}
-          {/* <div className="flex flex-wrap items-center gap-3">
-            <button
+          <div className="flex flex-wrap items-center gap-3">
+            {/* <button
               type="button"
               onClick={() => setExpanded(!expanded)}
               className="text-xs font-medium px-4 py-2 rounded-full border border-neutral-200 dark:border-neutral-700 text-neutral-700 dark:text-neutral-300 hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-colors flex items-center gap-1.5"
@@ -171,7 +171,7 @@ export function ProjectCard({ project, featuredIndex }: ProjectCardProps) {
                   expanded ? "rotate-180" : ""
                 }`}
               />
-            </button>
+            </button> */}
 
             {project.links.map((link, idx) => (
               <a
@@ -190,7 +190,7 @@ export function ProjectCard({ project, featuredIndex }: ProjectCardProps) {
                 </Button>
               </a>
             ))}
-          </div> */}
+          </div>
         </div>
       </div>
     </Card>

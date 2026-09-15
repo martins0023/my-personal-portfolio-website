@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/og-default.jpg", // Must exist in your /public folder (1200x630px recommended)
+        url: "/og-default.png", // Must exist in your /public folder (1200x630px recommended)
         width: 1200,
         height: 1200,
         alt: "Miracle Oladapo",
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Miracle Oladapo | Frontend Engineer",
-    images: ["/og-default.jpg"],
+    images: ["/og-default.png"],
     description:
       "I am a software engineer who works with founders, vision and mission-driven brands to turn a personal idea or identity into something real.",
   },
