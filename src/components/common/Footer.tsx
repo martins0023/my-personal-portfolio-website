@@ -119,6 +119,25 @@ export function Footer() {
               >
                 <Mail className="w-4 h-4" />
               </a>
+              {/* whatsapp */}
+              <a
+                href="https://wa.me/+2348162275527"
+                target="_blank"
+                rel="noreferrer"
+                className="p-2.5 rounded-full border border-neutral-200 dark:border-neutral-800 text-neutral-600 dark:text-neutral-400 hover:text-green-600 dark:hover:text-green-400 hover:bg-white dark:hover:bg-neutral-800 transition-colors"
+                aria-label="WhatsApp Profile"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  className="w-4 h-4"
+                >
+                  <path d="M12 2C6.48 2 2 6.48 2 12c0 1.85.5 3.58 1.36 5.06L2 22l4.94-1.36C8.42 21.5 10.15 22 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2zm0 18c-1.85 0-3.58-.5-5.06-1.36L4 20l1.36-4.94C3.5 15.58 3 13.85 3 12c0-4.97 4.03-9 9-9s9 4.03 9 9-4.03 9-9 9zm-.5-13h1v6h-1V7zm0 8h1v2h-1v-2z" />
+                </svg>
+              </a>
+
+              {/* sitemap */}
               <a
                 href="/sitemap.xml"
                 className="p-2.5 rounded-full border border-neutral-200 dark:border-neutral-800 text-neutral-600 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-white hover:bg-white dark:hover:bg-neutral-800 transition-colors"
